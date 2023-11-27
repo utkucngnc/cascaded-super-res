@@ -1,0 +1,9 @@
+dataset:
+  path: ../Pristine/PTY_pristine_raw.tif
+  image:
+    shape: 32
+    num_channels: 3
+  dataloader:
+    batch_size: 32
+    shuffle: true
+    num_workers: 1
